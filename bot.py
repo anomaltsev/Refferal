@@ -6,7 +6,7 @@ from aiogram.filters import CommandStart, Command
 
 API_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = "@producersdelok"   # канал для проверки подписки
-ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))
+ADMIN_ID = int(os.getenv("ADMIN_ID", "249213645"))
 
 bot = Bot(token=8209773017:AAGdOHjePbOCavvdIGFBsB54TKT0R1WvxYc, parse_mode="HTML")
 dp = Dispatcher()
